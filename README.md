@@ -13,7 +13,7 @@ with the Hamilton and Wu (2012) minimum chi-square estimator (MCSE), with survey
 as in Kim and Orphanides (2012) through a Theil-Goldberger mixed estimator.
 
 A two-factor yields-only baseline is in `2F_codes`. A simplified Python version of that baseline is
-in a separate repository: [LINK]. The Python version does not include the four-factor model, the
+in a separate repository: https://github.com/S0612/Project_Gatsm2F_python. The Python version does not include the four-factor model, the
 survey expectations or the MCSE.
 
 ## The model
