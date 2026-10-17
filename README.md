@@ -116,7 +116,7 @@ quarterly data, 1972Q1 to 2025Q4 (216 quarters). <!-- CHECK: how monthly is aggr
 | `US_macro_inflation_unemployment_MF.csv` | 648 rows, 2 columns: inflation and unemployment (column order: CHECK) |
 | `US_SurveyData.xlsx` | SPF forecasts: `DPGDP3`, `UNEMP3` (one quarter ahead) and `DPGDP6`, `UNEMP6` (four quarters ahead) |
 
-The main survey model, V6, uses the one-quarter-ahead forecasts.
+The main survey model, V6, uses the one-quarter-ahead forecasts. All yield data is from the zero-coupon Svensson yields by Gurkaynak, Sack, and Wright (2006).
 
 ## Files
 
@@ -195,6 +195,7 @@ Full tables and figures are in `Thesis.pdf`. The headline findings:
 - Duffee, G. (2002). Term premia and interest rate forecasts in affine models. *Journal of Finance*.
 - Hamilton, J. and Wu, J. C. (2012). Identification and estimation of Gaussian affine term
   structure models. *Journal of Econometrics*.
+- Gürkaynak, Refet S., Brian Sack, and Jonathan H. Wright. "The US Treasury yield curve: 1961 to the present." Journal of monetary Economics 54.8 (2007): 2291-2304.
 - Joslin, S., Priebsch, M. and Singleton, K. (2014). Risk premiums in dynamic term structure models
   with unspanned macro risks. *Journal of Finance*.
 - Kendall, M. (1954). Note on bias in the estimation of autocorrelation. *Biometrika*.
