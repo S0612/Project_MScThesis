@@ -135,7 +135,6 @@ The main survey model, V6, uses the one-quarter-ahead forecasts.
 The data generating process is the V6 estimate. Each replication simulates a sample from the model,
 initialised with a burn-in of 100 quarters, builds synthetic survey data calibrated by
 `CalibrateSurvey1Q.m`, and re-estimates. Bias is the mean of the estimates minus the true value.
-Sample length: [TODO]. Replications: [TODO]. The three estimators compared: [TODO].
 
 Because V6 is both the data generating process and the specification being evaluated, and the
 synthetic survey persistence is calibrated from the same SPF sample as the estimated macro
@@ -185,6 +184,7 @@ Full tables and figures are in `Thesis.pdf`. The headline findings:
 - The latent factors in the decomposition are filtered, not smoothed.
 - Results depend on the survey horizon (one quarter in V6), the survey noise assumption, and the
   model restrictions (block-diagonal dynamics, equal-diagonal normalisation).
+- The synthetic surveys generated are not truly model-consistent.
 
 ## References
 
